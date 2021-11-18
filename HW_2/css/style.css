@@ -1,0 +1,53 @@
+main figure blockquote p{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.holder ul li a[href^="https"] {
+    color: red;
+    font-weight: bold;
+}
+
+
+.holder ul li:nth-child(4) {
+    background-color: green;
+}
+
+.holder > p{
+    font-size: 24px;
+}
+
+.text-box h3:first-child {
+    color:pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box > p:last-child {
+    color:yellow;
+}
+
+.text-box p:nth-of-type(3){
+    color:green
+}
+
+.bg-box {
+    display: block;
+    width:1280px;
+    height:720px;
+    margin:0 auto;
+    background:
+    url(../img/lamp-png-0.png) 0 0 repeat-x, 
+    url(../img/grass.png)  0 100% repeat-x, 
+    url(../img/Ёжик.png) 0 0 repeat-y,
+    url(../img/donute.png) 100% 0 repeat-y,
+    url(../img/pole-zelen-trava-dom-derevya.jpg) center center no-repeat,
+    green;
+    background-size:50px, 400px, 50px, 50px, 700px;  
+}

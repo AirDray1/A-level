@@ -1,0 +1,71 @@
+Html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.777;
+    color:#000;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+
+.box {
+    padding: 20px;
+    margin: 0 0 20px 0;
+    border: dashed 2px black;
+    background: cornflowerblue;
+    max-width: 300px;
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.task2 {
+    width: 350px;
+    height: 220px;
+    border: 2px dashed red;
+    padding: 15px 10px 20px;
+    margin-bottom: 30px;
+    background: green;
+}
+
+.task3 {
+    float: left;
+    width: 600px;
+}
+.task3 .img-left {
+    float:left;
+    width: 200px;
+    margin:0 20px 20px 0;
+}
+
+.task3 .img-right {
+    float:right;
+    width: 150px;
+    margin:20px 0px 20px 20px;
+    top: 30px;
+}
+
+.task3 > p{
+    text-align: justify;
+    margin: 0;
+}
